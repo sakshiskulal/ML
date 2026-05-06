@@ -31,3 +31,9 @@ def linear_regression_boston():
     print("Linear Regression - Boston Housing Dataset")
     print("Mean Squared Error:", mean_squared_error(y_test, y_pred))
     print("R^2 Score:", r2_score(y_test, y_pred))
+
+
+if __name__ == "__main__":
+    print("Demonstrating Linear Regression and Polynomial Regression\n")
+    linear_regression_boston()
+    
